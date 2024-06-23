@@ -1,0 +1,28 @@
+Code Explanation:
+
+This code creates a simple Grocery Billing System using Tkinter, a Python GUI library. Let’s break down the code:
+
+Import Statements: The code starts by importing necessary modules – tkinter for GUI and random for generating random bill numbers.
+
+Class Definition: The Bill_App class is defined, which serves as the main application class.
+
+Initialization: In the __init__ method of the class, the GUI window is configured with a specific size, title, and components.
+
+Variable Initialization: Several StringVar and IntVar variables are initialized to hold customer details and the quantity of various items purchased.
+
+GUI Layout:
+
+The layout is organized using Label, Entry, and LabelFrame widgets to represent different sections such as customer details, food items, grocery items, others, bill area, and buttons.
+Each section contains labels and entry fields to input data.
+Functions:
+
+total: Calculates the total prices for food, grocery, and other items, along with their respective taxes.
+welcome_soft: Updates the text area with customer details and a header for the bill list.
+clear: Clears the bill area.
+bill_area: Adds product names, quantities, and prices to the bill area.
+exit: Closes the application window.
+Main Execution:
+
+It creates an instance of the Tk class to create the application window.
+An object of the Bill_App class is created, passing the Tk instance.
+The mainloop() method is called to start the GUI event loop.
